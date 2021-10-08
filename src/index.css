@@ -1,13 +1,130 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.add-buton {
+  display: flex !important;
+  margin-top: 10px !important;
+  text-align: center !important;
+  justify-content: center;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+
+.cont {
+  padding: 2px 16px;
+}
+
+.img__placetable {
+  width: 150px !important;
+  height: 100px !important;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background: url('https://envato-shoebox-0.imgix.net/8e3d/152b-677f-43ef-9aa7-32247b28ee17/5694.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=700&s=9b426b73dcb36208331cef3ce67b22e9')0 0/100% auto no-repeat
+}
+
+.content {
+  width: 100%;
+}
+
+.content-block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.pagination ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.pagination ul li {
+  list-style: none;
+  font-size: 20px;
+  margin: 20px;
+  background: beige;
+}
+
+.pagination ul li:hover {
+  list-style: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.card-backGround {
+  /* Old browsers */
+  background: rgb(236, 232, 157);
+  /* FF3.6-15 */
+  background: -moz-linear-gradient(top, rgba(236, 232, 157, 1) 0%, rgba(94, 83, 115, 1) 50%, rgba(24, 181, 164, 1) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-linear-gradient(top, rgba(236, 232, 157, 1) 0%, rgba(94, 83, 115, 1) 50%, rgba(24, 181, 164, 1) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: linear-gradient(to bottom, rgba(236, 232, 157, 1) 0%, rgba(94, 83, 115, 1) 50%, rgba(24, 181, 164, 1) 100%);
+}
+
+.img-cartTable {
+  width: 150px !important;
+  height: 150px !important;
+}
+
+.edit-inputs form {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+/* .edit-inputs form button {
+  color;
+} */
+
+.nav-item input {
+  background-color: rgb(219, 174, 219);
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  outline: none;
+}
+
+.nav-item input::placeholder {
+  color: #000;
+}
+
+/* .nav-right{
+  ma
+} */
