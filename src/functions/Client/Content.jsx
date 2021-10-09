@@ -37,9 +37,7 @@ const Content = () => {
                     <div>
                         <li className="nav-item">
                             <input type="text" placeholder="Поиск"
-
                                 value={searchValue}
-                                // placeholder="Поиск"
                                 onChange={(e) => filterProducts('q', e.target.value)}
 
                                 inputProps={{ 'aria-label': 'search' }}

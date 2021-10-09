@@ -66,11 +66,11 @@ const NewsPage = () => {
             <>
                 <Media>
                     <img
-                        width={250}
-                        height={300}
-                        className="align-self-start mr-3"
+                        width={450}
+                        height={400}
+                        className="align-self-end mr-4"
                         src="https://womo.ua/wp-content/uploads/2021/04/620x462_1_e6e3b9b0df3fa264bfa64502b0f9add8-1000x745_0xac120003_1286185241562638885.jpeg"
-                        alt="Generic placeholder"
+                        alt=""
                     />
                     <Media.Body>
                         <h5>Media Heading</h5>

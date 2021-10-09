@@ -24,25 +24,12 @@ const FirstPage = () => {
     return (
         <div>
             <SideBar />
-
-            {/* <Badge badgeContent={4} color="error">
-                {/* <MailIcon /> */}
-            {/* </Badge> */}
-            {/* <Link to="/favorites">
-                    <FavoriteIcon />
-                </Link>
-            </Badge> */}
-
             <IconButton aria-label="cart">
                 <Link to="/favorites">
                     <FavoriteIcon />
                 </Link>
-                {/* <StyledBadge badgeContent={4} color="secondary">
-                    
-                </StyledBadge>s */}
             </IconButton>
             <div className="row1">
-
                 <Content />
             </div>
         </div>

@@ -135,7 +135,8 @@ import FormControl from '@material-ui/core/FormControl';
 import FormLabel from '@material-ui/core/FormLabel';
 import { useHistory } from 'react-router';
 import { clientContext } from '../../contexts/ClientContext';
-import Button from '@restart/ui/esm/Button';
+import { Button } from 'react-bootstrap';
+// import Button from '@restart/ui/esm/Button';
 
 export default function SideBar() {
     // const [value, setValue] = React.useState('female');

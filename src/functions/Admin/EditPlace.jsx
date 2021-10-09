@@ -1,10 +1,6 @@
-// import { Button } from '@chakra-ui/button';
-// import { FormLabel } from '@chakra-ui/form-control';
-// import { Input } from '@chakra-ui/input';
 import { Input } from '@material-ui/core';
-import Button from '@restart/ui/esm/Button';
 import React, { useContext, useEffect, useState } from 'react';
-import { FormLabel } from 'react-bootstrap';
+import { FormLabel, Button } from 'react-bootstrap';
 import { useHistory, useParams } from 'react-router';
 import { adminContext } from '../../contexts/AdminContext';
 
@@ -27,7 +23,6 @@ const EditPlace = () => {
             [e.target.name]: e.target.value
         }
         setEditPlace(obj)
-        // console.log(obj);
     }
 
     const history = useHistory()
@@ -78,10 +73,7 @@ const EditPlace = () => {
                                 }
 
                                 }     >
-
-
                                 Save
-
                             </Button>
                         </form>
                     </div >

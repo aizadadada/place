@@ -128,3 +128,18 @@ code {
 /* .nav-right{
   ma
 } */
+
+.add-inputs {
+  display: flex;
+  justify-content: center;
+}
+
+.add-inputs form {
+  display: flex;
+  width: 320px;
+  flex-direction: column;
+}
+
+.add-inputs form input {
+  width: 60%;
+}

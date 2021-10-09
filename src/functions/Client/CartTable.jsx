@@ -8,10 +8,8 @@ import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
-// import { adminContext } from '../context/AdminContext';
 import { Link } from 'react-router-dom';
 import { Button } from '@material-ui/core';
-// import { clientContext } from '../context/ClientContext';
 import { InsertEmoticon } from '@material-ui/icons';
 
 const useStyles = makeStyles({
