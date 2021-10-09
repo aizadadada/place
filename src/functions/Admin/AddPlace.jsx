@@ -39,7 +39,7 @@ const AddPlace = () => {
                     <TextField value={place.graphic} id="standard-basic" label="Working Hours" name="graphic" onChange={handleInputs} />
                     <TextField value={place.address} id="standard-basic" label="Location" name="address" onChange={handleInputs} />
                     <TextField value={place.photo} id="standard-basic" label="Photo" name="photo" onChange={handleInputs} />
-                    <TextField value={place.category} id="standard-basic" type="number" label="Category" name="category" onChange={handleInputs} />
+                    <TextField value={place.category} id="standard-basic" label="Category" name="category" onChange={handleInputs} />
                     <TextField value={place.kitchen} id="standard-basic" label="Kitchen" name="kitchen" onChange={handleInputs} />
                     <Button
                         onClick={(e) => {
