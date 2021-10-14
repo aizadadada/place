@@ -1,11 +1,11 @@
 @charset "UTF-8";
-@import url(d:\Айзада\hackathon\src\components\Navbar\assets\Navbar.css);
-@import url(d:\Айзада\hackathon\src\components\Header\assets\Header.css);
+@import url(../components/Navbar/assets/Navbar.css);
+@import url(../components/Header/assets/Header.css);
 * {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .container {
@@ -16,4 +16,5 @@
 .h-100 {
   height: 100%;
 }
+
 /*# sourceMappingURL=Styles.css.map */
