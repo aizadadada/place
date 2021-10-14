@@ -84,16 +84,6 @@ code {
   cursor: pointer;
 }
 
-.card-backGround {
-  /* Old browsers */
-  background: rgb(236, 232, 157);
-  /* FF3.6-15 */
-  background: -moz-linear-gradient(top, rgba(236, 232, 157, 1) 0%, rgba(94, 83, 115, 1) 50%, rgba(24, 181, 164, 1) 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: -webkit-linear-gradient(top, rgba(236, 232, 157, 1) 0%, rgba(94, 83, 115, 1) 50%, rgba(24, 181, 164, 1) 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  background: linear-gradient(to bottom, rgba(236, 232, 157, 1) 0%, rgba(94, 83, 115, 1) 50%, rgba(24, 181, 164, 1) 100%);
-}
 
 .img-cartTable {
   width: 150px !important;
@@ -109,10 +99,6 @@ code {
   margin: 0 auto;
 }
 
-/* .edit-inputs form button {
-  color;
-} */
-
 .nav-item input {
   background-color: rgb(219, 174, 219);
   border-radius: 10px;
@@ -124,10 +110,6 @@ code {
 .nav-item input::placeholder {
   color: #000;
 }
-
-/* .nav-right{
-  ma
-} */
 
 .add-inputs {
   display: flex;
